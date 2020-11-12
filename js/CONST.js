@@ -116,8 +116,8 @@ export const Smoke = {
     twoLineConst: {
       maxMessageLength: 18,
       lineLimtLength: {
-        first: 9,
-        second: 9,
+        first: 10,
+        second: 8,
       },
       positions: {
         init: {
