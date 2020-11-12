@@ -72,7 +72,7 @@ export const Hoi = {
     twoLineTextId: 'inputHoiDooly',
 
     downladButtonId: 'btnDownloadHoi',
-    filename: 'dooly-hoi[🧙🏻‍♀️]',
+    filename: 'dooly-hoi[🦖]',
   },
   presets: {
     twoLineConst: {
@@ -110,7 +110,7 @@ export const Smoke = {
     threeLineTextId: 'inputSmokeDooly',
 
     downladButtonId: 'btnDownloadSmoke',
-    filename: 'dooly-smoke[🚬]',
+    filename: 'dooly-smoke[🦖]',
   },
   presets: {
     twoLineConst: {
@@ -175,7 +175,7 @@ export const Over = {
     twoLineTextId: 'inputOverDooly',
 
     downladButtonId: 'btnDownloadOver',
-    filename: 'dooly-over[🧙🏻‍♀️]',
+    filename: 'dooly-over[🦖]',
   },
   presets: {
     twoLineConst: {
