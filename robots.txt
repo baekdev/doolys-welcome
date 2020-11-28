@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://baek.dev/sitemap.xml
-Host: https://baek.dev
