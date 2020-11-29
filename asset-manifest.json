@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/doolys-welcome/static/css/main.0af6e46d.chunk.css",
+    "main.js": "/doolys-welcome/static/js/main.a110c83f.chunk.js",
+    "main.js.map": "/doolys-welcome/static/js/main.a110c83f.chunk.js.map",
+    "runtime-main.js": "/doolys-welcome/static/js/runtime-main.5bc9927c.js",
+    "runtime-main.js.map": "/doolys-welcome/static/js/runtime-main.5bc9927c.js.map",
+    "static/js/2.e93656c3.chunk.js": "/doolys-welcome/static/js/2.e93656c3.chunk.js",
+    "static/js/2.e93656c3.chunk.js.map": "/doolys-welcome/static/js/2.e93656c3.chunk.js.map",
+    "static/js/3.3cb5800b.chunk.js": "/doolys-welcome/static/js/3.3cb5800b.chunk.js",
+    "static/js/3.3cb5800b.chunk.js.map": "/doolys-welcome/static/js/3.3cb5800b.chunk.js.map",
+    "index.html": "/doolys-welcome/index.html",
+    "static/css/main.0af6e46d.chunk.css.map": "/doolys-welcome/static/css/main.0af6e46d.chunk.css.map",
+    "static/js/2.e93656c3.chunk.js.LICENSE.txt": "/doolys-welcome/static/js/2.e93656c3.chunk.js.LICENSE.txt",
+    "static/media/bg_5.acca9cdb.png": "/doolys-welcome/static/media/bg_5.acca9cdb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bc9927c.js",
+    "static/js/2.e93656c3.chunk.js",
+    "static/css/main.0af6e46d.chunk.css",
+    "static/js/main.a110c83f.chunk.js"
+  ]
+}
