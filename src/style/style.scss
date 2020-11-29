@@ -1,0 +1,121 @@
+$color-green: #cfdd83;
+$color-lightgray: #eee;
+$color-gray: #ddd;
+
+body {
+  color: #313030;
+}
+footer {
+  padding: 20px 10px 20px 10px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px auto;
+  display: block;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 0 0 0, 0 1px 12px $color-lightgray;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  z-index: 1000;
+  -webkit-box-pack: justify;
+  box-sizing: inherit;
+
+  & h1 {
+    font-weight: 700;
+    padding-top: 13px;
+    margin: 0 auto;
+    box-sizing: inherit;
+  }
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #2f84f1;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  font-size: 1.2em;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  & li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.App {
+  box-sizing: border-box;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px 50px 20px;
+  position: relative;
+  box-shadow: 0 0 0 0, 0 6px 12px $color-lightgray;
+}
+
+.memeContainer {
+  margin: 20px 0 10px 0 !important;
+  border: 1px solid $color-lightgray;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  & h2 {
+    background-color: #2b2929;
+    color: $color-lightgray;
+    padding: 6px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 1.3em;
+  }
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+  & input {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid $color-gray;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid $color-green;
+  background-color: $color-green;
+}
+
+.memePreview canvas {
+  max-width: 100%;
+}
