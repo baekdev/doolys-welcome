@@ -99,6 +99,7 @@ ul {
     border-radius: 30px;
     font-size: 15px;
   }
+  & input:focus { outline: none; }
 }
 
 .text-center {
@@ -114,6 +115,11 @@ button {
   padding: 10px 20px;
   border: 1px solid $color-green;
   background-color: $color-green;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 .memePreview canvas {

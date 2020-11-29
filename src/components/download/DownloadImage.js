@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './../style/style.scss';
+import '../../style/style.scss';
 
 const DownloadImage = React.memo( ({filename, imageData}) => {
   const downAnchorRef = useRef();

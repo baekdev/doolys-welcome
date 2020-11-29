@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './../style/style.scss';
-import { twoLineText } from './TwoLineText.js';
-import { threeLineText } from './ThreeLineText.js';
-import ActorMessage from './ActorMessage';
-import DrawingCanvas from './DrawingCanvas';
+import { twoLineText } from './util/TwoLineText.js';
+import { threeLineText } from './util/ThreeLineText.js';
+import ActorMessage from './draw/ActorMessage';
+import DrawingCanvas from './draw/DrawingCanvas';
 
 const BuildMeme = (props) => {
   const { actorConst } = props;

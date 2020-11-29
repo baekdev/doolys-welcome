@@ -1,7 +1,6 @@
 export const Welcome = {
 	title: "어서오고",
 	source: {
-		canvasId: "canvasWelcome",
 		imageSrc: "bg_1.png",
 		imageWidth: 519,
 		imageHeight: 606,
@@ -9,7 +8,6 @@ export const Welcome = {
 		twoLineTextId: "inputWelcomeStranger",
 		threeLineTextId: "inputWelcomeDooly",
 
-		downladButtonId: "btnDownloadWelcome",
 		filename: "doolys-welcome",
 	},
 	presets: {
@@ -72,14 +70,12 @@ export const Welcome = {
 export const Hoi = {
 	title: "초능력",
 	source: {
-		canvasId: "canvasHoi",
 		imageSrc: "bg_2.png",
 		imageWidth: 430,
 		imageHeight: 542,
 
 		twoLineTextId: "inputHoiDooly",
 
-		downladButtonId: "btnDownloadHoi",
 		filename: "doolys-hoi",
 	},
 	presets: {
@@ -113,7 +109,6 @@ export const Hoi = {
 export const Smoke = {
 	title: "떨",
 	source: {
-		canvasId: "canvasSmoke",
 		imageSrc: "bg_5.png",
 		imageWidth: 532,
 		imageHeight: 539,
@@ -121,7 +116,6 @@ export const Smoke = {
 		twoLineTextId: "inputSmokeStranger",
 		threeLineTextId: "inputSmokeDooly",
 
-		downladButtonId: "btnDownloadSmoke",
 		filename: "doolys-smoke",
 	},
 	presets: {
@@ -184,14 +178,12 @@ export const Smoke = {
 export const Over = {
 	title: "선 넘네",
 	source: {
-		canvasId: "canvasOver",
 		imageSrc: "bg_4.png",
 		imageWidth: 481,
 		imageHeight: 540,
 
 		twoLineTextId: "inputOverDooly",
 
-		downladButtonId: "btnDownloadOver",
 		filename: "doolys-over",
 	},
 	presets: {

@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from 'react';
-import './../style/style.scss';
-import DownloadImage from './DownloadImage';
-import { twoLineText } from './TwoLineText';
-import { threeLineText } from './ThreeLineText';
-import bg_1 from '../images/bg_1.png';
-import bg_2 from '../images/bg_2.png';
-import bg_5 from '../images/bg_5.png';
-import bg_4 from '../images/bg_4.png';
+import '../../style/style.scss';
+import DownloadImage from './../download/DownloadImage';
+import { twoLineText } from './../util/TwoLineText';
+import { threeLineText } from './../util/ThreeLineText';
+import bg_1 from './../../images/bg_1.png';
+import bg_2 from './../../images/bg_2.png';
+import bg_5 from './../../images/bg_5.png';
+import bg_4 from './../../images/bg_4.png';
 
 const DrawingCanvas = (props) => {
 
@@ -24,22 +24,6 @@ const DrawingCanvas = (props) => {
     initCanvas();
   });
 
-  const drawPreviewImage = (canvas, bgImage, items) => {
-    const ctx = canvas.getContext('2d');
-    ctx.drawImage(bgImage, 0, 0);
-    items.forEach((v) => {
-      drawTextWithPostion(ctx, v.text, v.pos);
-    });
-    setImageData(canvas.toDataURL('image/png'));
-  };
-
-  const drawTextWithPostion = (ctx, text, position) => {
-    ctx.font = "20pt 'Dotum'";
-    ctx.lineWidth = 2;
-    ctx.fillStyle = '#313131';
-    ctx.fillText(text, position.x, position.y);
-  };
-
   const initCanvas = () => {
     const canvas = canvasRef.current;
 
@@ -54,6 +38,22 @@ const DrawingCanvas = (props) => {
     bgImage.onload = function () {
       drawPreviewImage(canvas, bgImage, items);
     };
+  };
+
+  const drawPreviewImage = (canvas, bgImage, items) => {
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(bgImage, 0, 0);
+    items.forEach((v) => {
+      drawTextWithPostion(ctx, v.text, v.pos);
+    });
+    setImageData(canvas.toDataURL('image/png'));
+  };
+
+  const drawTextWithPostion = (ctx, text, position) => {
+    ctx.font = "20pt 'Dotum'";
+    ctx.lineWidth = 2;
+    ctx.fillStyle = '#313131';
+    ctx.fillText(text, position.x, position.y);
   };
 
   const selectBackgroundImg = (filename) => {

@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react';
-import './../style/style.scss';
+import '../../style/style.scss';
 
 const ActorMessage = (props) => {
 
@@ -21,7 +21,6 @@ const ActorMessage = (props) => {
 
   return (
     <React.Fragment>
-
       {isExistActor ? (
         <div className="row">
           <input
@@ -31,6 +30,7 @@ const ActorMessage = (props) => {
             placeholder={placeholder}
             onKeyUp={handleChange}
             maxLength={maxLength}
+            autocomplete="off"
           />
 
         </div>

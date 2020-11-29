@@ -1,8 +1,8 @@
 import React from 'react';
 import {Welcome, Hoi, Smoke, Over} from '../data/Actors.js';
-import Header from './Header'
-import Menu from './Menu'
-import Footer from './Footer'
+import Header from './layout/Header'
+import Menu from './layout/Menu'
+import Footer from './layout/Footer'
 import BuildMeme from './BuildMeme';
 import './../style/style.scss';
 
