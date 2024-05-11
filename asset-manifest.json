@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/doolys-welcome/static/css/main.65a50240.css",
+    "main.css": "/doolys-welcome/static/css/main.6cc906a7.css",
     "main.js": "/doolys-welcome/static/js/main.18f170f8.js",
     "static/js/377.986c5f92.chunk.js": "/doolys-welcome/static/js/377.986c5f92.chunk.js",
     "static/media/bg_5.png": "/doolys-welcome/static/media/bg_5.acca9cdb79b8b806bc72.png",
     "index.html": "/doolys-welcome/index.html",
-    "main.65a50240.css.map": "/doolys-welcome/static/css/main.65a50240.css.map",
+    "main.6cc906a7.css.map": "/doolys-welcome/static/css/main.6cc906a7.css.map",
     "main.18f170f8.js.map": "/doolys-welcome/static/js/main.18f170f8.js.map",
     "377.986c5f92.chunk.js.map": "/doolys-welcome/static/js/377.986c5f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a50240.css",
+    "static/css/main.6cc906a7.css",
     "static/js/main.18f170f8.js"
   ]
 }
